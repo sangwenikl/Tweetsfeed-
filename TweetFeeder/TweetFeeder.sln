@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetFeeder", "TweetFeeder.csproj", "{A0D120E7-FA4F-4B5B-9F1D-8019FAB6605A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F539C36A-9EFA-457E-9710-47F0BCD7399F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Users\Mpha\OneDrive\Interview Stuff\Allan Gray\Assessment.docx = ..\..\..\..\Users\Mpha\OneDrive\Interview Stuff\Allan Gray\Assessment.docx
+		..\..\..\..\Users\Mpha\OneDrive\Interview Stuff\Allan Gray\Chillisoft.txt = ..\..\..\..\Users\Mpha\OneDrive\Interview Stuff\Allan Gray\Chillisoft.txt
+		..\..\..\..\Users\Mpha\OneDrive\Interview Stuff\Allan Gray\example.txt = ..\..\..\..\Users\Mpha\OneDrive\Interview Stuff\Allan Gray\example.txt
+		..\..\..\..\Users\Mpha\OneDrive\Interview Stuff\Allan Gray\notes and assumptions.txt = ..\..\..\..\Users\Mpha\OneDrive\Interview Stuff\Allan Gray\notes and assumptions.txt
+		tweet.txt = tweet.txt
+		user.txt = user.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6C0884D7-9FAE-4380-A677-E9708B0AF38A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CFE5740D-DA98-42B8-B919-6457805CB9B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{67C005D7-5CD7-492E-A62A-F55A7181A7F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG.Common.Tests", "AG.Common.Tests\AG.Common.Tests.csproj", "{62415DDF-E9E3-4790-B633-3C5580329D4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG.Common", "AG.Common\AG.Common.csproj", "{A257A073-8141-4884-B17C-00F5355AE9A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AG.Domain", "AG.Domain\AG.Domain.csproj", "{24DE3184-8C37-47E8-8D08-626A2F4F2D9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTestApp", "ConsoleTestApp\ConsoleTestApp.csproj", "{4F7C4C7D-D136-46B6-8180-ADBD677A7624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetFeeder.Mvc", "TweetFeeder.Mvc\TweetFeeder.Mvc.csproj", "{7842AA98-8147-4565-A901-447E3E1ED401}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0D120E7-FA4F-4B5B-9F1D-8019FAB6605A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D120E7-FA4F-4B5B-9F1D-8019FAB6605A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D120E7-FA4F-4B5B-9F1D-8019FAB6605A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D120E7-FA4F-4B5B-9F1D-8019FAB6605A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62415DDF-E9E3-4790-B633-3C5580329D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62415DDF-E9E3-4790-B633-3C5580329D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62415DDF-E9E3-4790-B633-3C5580329D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62415DDF-E9E3-4790-B633-3C5580329D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A257A073-8141-4884-B17C-00F5355AE9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A257A073-8141-4884-B17C-00F5355AE9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A257A073-8141-4884-B17C-00F5355AE9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A257A073-8141-4884-B17C-00F5355AE9A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24DE3184-8C37-47E8-8D08-626A2F4F2D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24DE3184-8C37-47E8-8D08-626A2F4F2D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24DE3184-8C37-47E8-8D08-626A2F4F2D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24DE3184-8C37-47E8-8D08-626A2F4F2D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F7C4C7D-D136-46B6-8180-ADBD677A7624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7C4C7D-D136-46B6-8180-ADBD677A7624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7C4C7D-D136-46B6-8180-ADBD677A7624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7C4C7D-D136-46B6-8180-ADBD677A7624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7842AA98-8147-4565-A901-447E3E1ED401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7842AA98-8147-4565-A901-447E3E1ED401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7842AA98-8147-4565-A901-447E3E1ED401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7842AA98-8147-4565-A901-447E3E1ED401}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0D120E7-FA4F-4B5B-9F1D-8019FAB6605A} = {67C005D7-5CD7-492E-A62A-F55A7181A7F8}
+		{67C005D7-5CD7-492E-A62A-F55A7181A7F8} = {CFE5740D-DA98-42B8-B919-6457805CB9B8}
+		{62415DDF-E9E3-4790-B633-3C5580329D4E} = {6C0884D7-9FAE-4380-A677-E9708B0AF38A}
+		{A257A073-8141-4884-B17C-00F5355AE9A0} = {CFE5740D-DA98-42B8-B919-6457805CB9B8}
+		{24DE3184-8C37-47E8-8D08-626A2F4F2D9B} = {CFE5740D-DA98-42B8-B919-6457805CB9B8}
+		{4F7C4C7D-D136-46B6-8180-ADBD677A7624} = {67C005D7-5CD7-492E-A62A-F55A7181A7F8}
+		{7842AA98-8147-4565-A901-447E3E1ED401} = {67C005D7-5CD7-492E-A62A-F55A7181A7F8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B6BA9CA-10C9-49A6-B86A-B81B6D17920C}
+	EndGlobalSection
+EndGlobal

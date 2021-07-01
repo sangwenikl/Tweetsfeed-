@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Sangweni";
+}
+
+<h2>Sangweni</h2>
+
+@if (ViewBag.logFileContent != null)
+{
+    foreach (string dataLine in ViewBag.logFileContent)
+    {
+        @dataLine
+        <br />
+
+    }
+}
+
